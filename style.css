@@ -97,3 +97,18 @@
       color: red;
       margin-bottom:4px;
   }
+
+@media (max-width:620px) {
+    main {
+        width: 90%;
+        margin: 15px auto 0;
+      }
+
+    #studentForm {
+        grid-template-areas:
+        "name"
+        "age"
+        "roll"
+        "button";
+    }
+  }
